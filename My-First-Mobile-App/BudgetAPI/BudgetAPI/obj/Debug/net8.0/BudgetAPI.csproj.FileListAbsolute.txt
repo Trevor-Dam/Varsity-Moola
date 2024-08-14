@@ -1,0 +1,228 @@
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.exe
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.deps.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.runtimeconfig.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.pdb
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Npgsql.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.AssemblyReference.cache
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.AssemblyInfoInputs.cache
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.AssemblyInfo.cs
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.CoreCompileInputs.cache
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.BudgetAPI.props
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BudgetAPI.props
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BudgetAPI.props
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\scopedcss\bundle\BudgetAPI.styles.css
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.CopyComplete
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\refint\BudgetAPI.dll
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.pdb
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.genruntimeconfig.cache
+C:\Users\tdamo\OneDrive\Documents\FirstBudgetApp\BudgetAPI\BudgetAPI\obj\Debug\net8.0\ref\BudgetAPI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.sourcelink.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\refint\BudgetAPI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.pdb
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.exe
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.deps.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.runtimeconfig.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.pdb
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Npgsql.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.BudgetAPI.props
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BudgetAPI.props
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BudgetAPI.props
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\scopedcss\bundle\BudgetAPI.styles.css
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.csproj.Up2Date
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\BudgetAPI.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\ref\BudgetAPI.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\MimeMapping.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Core.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Functions.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Gotrue.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Postgrest.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Realtime.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Supabase.Storage.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\HP\OneDrive\Documents\Varsity Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Websocket.Client.dll
