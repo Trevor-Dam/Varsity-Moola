@@ -5,7 +5,7 @@
 namespace BudgetAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class postgresql_migration_428 : Migration
+    public partial class FixingConnection : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

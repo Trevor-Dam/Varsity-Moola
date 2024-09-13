@@ -5,18 +5,20 @@ namespace BudgetAPI.Models
     public class Users
     {
         [Key]
-        public string? Email { get; set; }
+        public int Id { get; set; }
+        [Required]
+        [StringLength(100)]
+        public string Name { get; set; } = string.Empty;
+        [Required]
+        [StringLength(100)]
+        public string Surname { get; set; } = string.Empty ;
+        [Required]
+        [StringLength(100)]
+        public string Email { get; set; } = string.Empty;
         [Required]
         public string? Password { get; set; }
         [Required]
-        public string? CourseName { get; set; }
-        [Required]
         public string? Institution { get; set; }
-        public double RelaxBudget { get; set; }
-        [Required]
-        public double Expenses { get; set; }
-        [Required]
-        public double Income { get; set; }
         
     }
 }
