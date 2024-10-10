@@ -15,7 +15,7 @@ import {
   TextInput,
 } from 'react-native';
 
-import { AuthContext } from 'App';
+import { AuthContext } from '../index';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
@@ -61,7 +61,6 @@ export default function Login() {
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
       <SafeAreaView>
-        <ScrollView style={backgroundStyle}>
           <TextInput
             style={{height: 40}}
             id="user"
@@ -76,8 +75,9 @@ export default function Login() {
           />
           <Pressable
             onPress={() => {validateLogin(text, password);}}
-          >Login</Pressable>
-        </ScrollView>
+          >
+            <Text>Login</Text>
+          </Pressable>
       </SafeAreaView>
     </View>
   );
@@ -86,7 +86,6 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
   },
