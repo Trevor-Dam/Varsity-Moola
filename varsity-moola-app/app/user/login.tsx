@@ -7,17 +7,25 @@ import { useState } from 'react';
 import {
   SafeAreaView,
   ScrollView,
-  StyleSheet,
   Text,
   useColorScheme,
   View,
-  Pressable,
+  TouchableOpacity,
   TextInput,
 } from 'react-native';
 
 import { AuthContext } from '../index';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+
+// App.js
+
+import { NativeWindStyleSheet } from "nativewind";
+import { Link } from '@react-navigation/native';
+
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 
 const useAuth = () => {
@@ -49,47 +57,44 @@ function validateLogin(username: string, password: string) {
 }
 
 export default function Login() {
-  const isDarkMode = useColorScheme() === 'dark';
 
-  const [text, setText] = useState('');
-  const [password, setPassword] = useState('');
+const [text, setText] = useState('');
+const [password, setPassword] = useState('');
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
-      <SafeAreaView>
-          <TextInput
-            style={{height: 40}}
-            id="user"
-            placeholder="Username"
-            onChangeText={newText => setText(newText)}
-          />
-          <TextInput
-            style={{height: 40}}
-            id="pass"
-            placeholder="Password"
-            onChangeText={newText => setPassword(newText)}
-          />
-          <Pressable
-            onPress={() => {validateLogin(text, password);}}
-          >
-            <Text>Login</Text>
-          </Pressable>
-      </SafeAreaView>
+return (
+  <>
+    <View className='space-y-6'>
+      <Text className='block mb-2 text-lg dark:text-gray-300'>Email</Text>
+      <TextInput
+        className='border p-3 shadow-md dark:bg-indigo-700 dark:text-gray-300 dark:border-gray-700 border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 transition transform hover:scale-105 duration-300'
+        id="user"
+        placeholder="Username"
+        onChangeText={newText => setText(newText)}
+      />
+      <Text 
+      className='block mb-2 text-lg dark:text-gray-300'>
+        Password
+      </Text>
+      <TextInput
+        className='border p-3 shadow-md dark:bg-indigo-700 dark:text-gray-300 dark:border-gray-700 border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 transition transform hover:scale-105 duration-300'
+        id="pass"
+        placeholder="Password"
+        onChangeText={newText => setPassword(newText)}
+        secureTextEntry={true}
+      />
+      <Link 
+      className='text-blue-400 text-sm transition hover:underline'
+      to={'user/forgotPassword.tsx'}>
+        <Text>Forgot Password</Text>
+      </Link>
+      <TouchableOpacity
+        className='w-full p-3 mt-4 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg hover:scale-105 transition transform duration-300 shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
+        onPress={() => {validateLogin(text, password);}}
+      >
+        <Text>Login</Text>
+      </TouchableOpacity>
     </View>
-  );
+  </>
+);
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 20,
-  },
-});

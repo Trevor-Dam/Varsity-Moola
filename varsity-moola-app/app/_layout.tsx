@@ -1,28 +1,19 @@
-import { DarkTheme, DefaultTheme, NavigationContainer, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-
-import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
-import { View, Text } from 'react-native';
-import 'react-native-reanimated';
-
-import { useColorScheme } from '@/hooks/useColorScheme';
-
-import React, {createContext, useMemo} from 'react';
-import Home from '.';
+import React from "react";
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import Login from "./user/login";
+import AuthLayout from "./user/_layout";
 
 
 
+export const Stack = createNativeStackNavigator()
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-SplashScreen.preventAutoHideAsync();
-
-export default function RootLayout() {
-  
-
-  return (
-      <View>
-        <Text>Page Layout</Text>
-      </View>
-  );
+export default function AppLayout() {
+    
+    return (
+        <>
+            <Stack.Navigator screenOptions={{headerShown: false}}>
+                <Stack.Screen component={AuthLayout} name="user" />
+            </Stack.Navigator>   
+        </>
+    )
 }
