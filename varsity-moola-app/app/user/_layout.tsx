@@ -8,10 +8,9 @@ import { Header } from "react-native/Libraries/NewAppScreen";
 export default function AuthLayout() {
     return (
         <>
-            <Stack.Navigator >
+            
                 <Stack.Screen component={Login} name="login" />
                 <Stack.Screen component={ForgotPassword} name="forgotPassword" />
-            </Stack.Navigator>
         </>
     )
 }

@@ -20,12 +20,10 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 // App.js
 
-import { NativeWindStyleSheet } from "nativewind";
+
 import { Link } from '@react-navigation/native';
 
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
+
 
 
 const useAuth = () => {

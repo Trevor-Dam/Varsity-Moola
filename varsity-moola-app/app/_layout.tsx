@@ -11,9 +11,7 @@ export default function AppLayout() {
     
     return (
         <>
-            <Stack.Navigator screenOptions={{headerShown: false}}>
-                <Stack.Screen component={AuthLayout} name="user" />
-            </Stack.Navigator>   
+                <Stack.Screen component={AuthLayout} name="user" />  
         </>
     )
 }

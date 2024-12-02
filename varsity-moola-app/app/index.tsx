@@ -4,13 +4,8 @@ import Login from './user/login';
 import { View, ScrollView } from 'react-native';
 import AppLayout from './_layout';
 // App.js
-
-import { NativeWindStyleSheet } from "nativewind";
+import '../global.css';
 import { NavigationContainer } from '@react-navigation/native';
-
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
 
 type AuthClass = {
   userKey: number
