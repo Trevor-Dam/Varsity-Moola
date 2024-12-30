@@ -14,7 +14,7 @@ import {
   TextInput,
 } from 'react-native';
 
-import { AuthContext } from '../index';
+import { useAuthContext } from '../../UserContext';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
@@ -27,7 +27,7 @@ import { Link } from '@react-navigation/native';
 
 
 const useAuth = () => {
-  const isAuth = React.useContext(AuthContext);
+  const isAuth = useAuthContext();
 
   return isAuth;
 
@@ -60,7 +60,6 @@ const [text, setText] = useState('');
 const [password, setPassword] = useState('');
 
 return (
-  <>
     <View className='space-y-6'>
       <Text className='block mb-2 text-lg dark:text-gray-300'>Email</Text>
       <TextInput
@@ -92,7 +91,6 @@ return (
         <Text>Login</Text>
       </TouchableOpacity>
     </View>
-  </>
 );
 }
 

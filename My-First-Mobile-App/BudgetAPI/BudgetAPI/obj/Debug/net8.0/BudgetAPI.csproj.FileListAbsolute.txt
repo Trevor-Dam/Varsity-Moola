@@ -481,3 +481,17 @@ C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAP
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\BudgetAPI.staticwebassets.endpoints.json
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Argon.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Isopoh.Cryptography.SecureArray.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Konscious.Security.Cryptography.Argon2.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Konscious.Security.Cryptography.Blake2.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Passlib.Net.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

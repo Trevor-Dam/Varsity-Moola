@@ -6,5 +6,5 @@ export default function ForgotPassword() {
         <View>
             <Text>Forgot Password Screen</Text>
         </View>
-    )
+    );
 }

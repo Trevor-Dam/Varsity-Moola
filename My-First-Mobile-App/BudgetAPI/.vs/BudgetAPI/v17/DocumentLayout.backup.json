@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\budgetapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\budgetapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\data\\budgetdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\data\\budgetdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\migrations\\20241021191326_reconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\migrations\\20241021191326_reconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\secrecy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\secrecy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\budgetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\budgetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\migrations\\20241021191326_reconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\migrations\\20241021191326_reconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021190607_VarsityMoolaSupabaseMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\budgetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\budgetapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\migrations\\20240913162528_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|c:\\users\\hp\\onedrive\\documents\\github\\varsity-moola\\my-first-mobile-app\\budgetapi\\budgetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1A0050-B253-4A73-B2D8-B07ABD17CAB2}|BudgetAPI\\BudgetAPI.csproj|solutionrelative:budgetapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Documents\\Varsity Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240720234615_BudgetDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -85,7 +89,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\appsettings.json",
               "RelativeDocumentMoniker": "BudgetAPI\\appsettings.json",
@@ -93,64 +97,24 @@
               "RelativeToolTip": "BudgetAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T15:32:55.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T15:32:55.554Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20241021191326_ReConnection.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
-              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
-              "RelativeToolTip": "BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T19:13:27.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240913163239_FixingConnection.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
-              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
-              "RelativeToolTip": "BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:32:39.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240913162528_InitialDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
-              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
-              "RelativeToolTip": "BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:25:29.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "BudgetDataContext.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Data\\BudgetDataContext.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Data\\BudgetDataContext.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Data\\BudgetDataContext.cs",
               "RelativeToolTip": "BudgetAPI\\Data\\BudgetDataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T13:04:30.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Income.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Income.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Models\\Income.cs",
@@ -158,8 +122,7 @@
               "RelativeToolTip": "BudgetAPI\\Models\\Income.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T15:53:47.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T15:53:47.897Z"
             },
             {
               "$type": "Document",
@@ -169,27 +132,26 @@
               "RelativeDocumentMoniker": "BudgetAPI\\Secrecy.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Secrecy.cs",
               "RelativeToolTip": "BudgetAPI\\Secrecy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T23:40:53.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T23:40:53.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Program.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Program.cs",
               "RelativeToolTip": "BudgetAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAArwC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T13:04:30.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Dockerfile",
               "RelativeDocumentMoniker": "BudgetAPI\\Dockerfile",
@@ -197,12 +159,97 @@
               "RelativeToolTip": "BudgetAPI\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-03T19:49:18.847Z",
+              "WhenOpened": "2024-10-03T19:49:18.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BudgetAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
+              "RelativeDocumentMoniker": "BudgetAPI\\BudgetAPI.csproj",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
+              "RelativeToolTip": "BudgetAPI\\BudgetAPI.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-07T13:04:30.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BudgetAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BudgetAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:03:34.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BudgetAPI.http",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.http",
+              "RelativeDocumentMoniker": "BudgetAPI\\BudgetAPI.http",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.http",
+              "RelativeToolTip": "BudgetAPI\\BudgetAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-30T13:46:11.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "BudgetAPI\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Users.cs",
+              "RelativeToolTip": "BudgetAPI\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T13:04:30.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240913162528_InitialDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
+              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
+              "RelativeToolTip": "BudgetAPI\\Migrations\\20240913162528_InitialDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T16:25:29.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240913163239_FixingConnection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
+              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
+              "RelativeToolTip": "BudgetAPI\\Migrations\\20240913163239_FixingConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T16:32:39.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241021191326_ReConnection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
+              "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
+              "RelativeToolTip": "BudgetAPI\\Migrations\\20241021191326_ReConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:13:27.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "20241021190607_VarsityMoolaSupabaseMigration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20241021190607_VarsityMoolaSupabaseMigration.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20241021190607_VarsityMoolaSupabaseMigration.cs",
@@ -213,20 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "BudgetAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "BudgetAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:03:34.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Models\\Expense.cs",
@@ -234,25 +268,11 @@
               "RelativeToolTip": "BudgetAPI\\Models\\Expense.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:06:18.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T16:06:18.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BudgetAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
-              "RelativeDocumentMoniker": "BudgetAPI\\BudgetAPI.csproj",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
-              "RelativeToolTip": "BudgetAPI\\BudgetAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-07T13:04:30.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Balance.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Balance.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Models\\Balance.cs",
@@ -260,12 +280,11 @@
               "RelativeToolTip": "BudgetAPI\\Models\\Balance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:02:09.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T16:02:09.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Account.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Models\\Account.cs",
@@ -273,12 +292,11 @@
               "RelativeToolTip": "BudgetAPI\\Models\\Account.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T16:13:01.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T16:13:01.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20240720234615_BudgetDB.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\Varsity Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240720234615_BudgetDB.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Varsity Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240720234615_BudgetDB.cs",
@@ -289,20 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "BudgetAPI\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Models\\Users.cs",
-              "RelativeToolTip": "BudgetAPI\\Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T13:04:30.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20240721000356_BudgetDB.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\Migrations\\20240721000356_BudgetDB.cs",
               "RelativeDocumentMoniker": "BudgetAPI\\Migrations\\20240721000356_BudgetDB.cs",
@@ -310,12 +315,7 @@
               "RelativeToolTip": "BudgetAPI\\Migrations\\20240721000356_BudgetDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T00:03:56.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-07-21T00:03:56.475Z"
             }
           ]
         }

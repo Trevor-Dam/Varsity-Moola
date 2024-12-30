@@ -7,102 +7,105 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BudgetAPI.Data;
 using BudgetAPI.Models;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BudgetAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UsersController(BudgetDataContext context, IConfiguration config) : ControllerBase
     {
-        private readonly BudgetDataContext _context;
+        private readonly BudgetDataContext _context = context;
+        private readonly IConfiguration _config = config;
 
-        public UsersController(BudgetDataContext context)
-        {
-            _context = context;
-        }
-
-        // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Users>>> GetUser()
-        {
-            return await _context.User.ToListAsync();
-        }
-
-        // GET: api/Users/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Users>> GetUsers(int id)
-        {
-            var users = await _context.User.FindAsync(id);
-
-            if (users == null)
-            {
-                return NotFound();
-            }
-
-            return users;
-        }
-
-        // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsers(int id, Users users)
-        {
-            if (id != users.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(users).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UsersExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Users
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [AllowAnonymous]
         [HttpPost]
-        public async Task<ActionResult<Users>> PostUsers(Users users)
+        [Route("Register")]
+        [Consumes("application/json")]
+        public IActionResult Register([FromBody] string email, [FromBody] string password, 
+            [FromBody] string confirmPassword, [FromBody] string name, [FromBody] string surname, [FromBody] string institution)
         {
-            _context.User.Add(users);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetUsers", new { id = users.Id }, users);
-        }
-
-        // DELETE: api/Users/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUsers(int id)
-        {
-            var users = await _context.User.FindAsync(id);
-            if (users == null)
+            if (!password.Equals(confirmPassword))
             {
-                return NotFound();
+                return BadRequest(new JsonResult("Two Passwords do not match"));
             }
+            else if ((name == null) || (email == null) || (password == null) || (confirmPassword == null) || (surname == null) || (institution == null))
+            {
+                return NotFound(new JsonResult("One or more inputs have no value"));
+            }
+            else if ((name == "") || (email == "") || (password == "") || (confirmPassword == null) || (surname == null) || (institution == null))
+            {
+                return BadRequest(new JsonResult("Empty values found"));
+            }
+            else
+            {
+                var users = new Users
+                {
+                    Email = email,
+                    Password = password,
+                    Name = name,
+                    Surname = surname,
+                    Institution = institution
+                };
+                try
+                {
+                    _context.Add(users);
+                    _context.SaveChanges();
+                    return Ok(new JsonResult("Data saved, go to Login page"));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.GetBaseException().StackTrace);
+                    return BadRequest(new JsonResult("Server malfunctioned"));
+                }
+            }
+        }
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("Login")]
+        [Consumes("application/json")]
+        public IActionResult Login([FromBody] string email, [FromBody] string password)
+        {
+            var user = (from u in _context.User where u.Email == email select u).FirstOrDefault();
+            if (user == null)
+            {
+                return BadRequest(new JsonResult("User not registered"));
+            }
+            else if (!Secrecy.verifyPassword(password, user.Password))
+            {
+                return BadRequest(new JsonResult("Passwords do not match"));
 
-            _context.User.Remove(users);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            }
+            else
+            {
+                return Ok(new JsonResult(GenerateJsonWebToken(user)));
+            }
         }
 
-        private bool UsersExists(int id)
+        private string GenerateJsonWebToken(Users users)
         {
-            return _context.User.Any(e => e.Id == id);
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claimsList = new[]
+            {
+                new Claim("Id", users.Id.ToString()),
+                new Claim("Instituition", users.Institution),
+                new Claim("Email", users.Email),
+            };
+            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+                _config["Jwt:Issuer"],
+                claimsList,
+                expires: DateTime.UtcNow.AddDays(30),
+                signingCredentials: credentials
+                );
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

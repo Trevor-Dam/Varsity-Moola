@@ -1,17 +1,16 @@
 import React from "react";
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+
 import Login from "./user/login";
 import AuthLayout from "./user/_layout";
+import { NavigationContainer } from "@react-navigation/native";
 
 
 
-export const Stack = createNativeStackNavigator()
+
 
 export default function AppLayout() {
     
     return (
-        <>
-                <Stack.Screen component={AuthLayout} name="user" />  
-        </>
-    )
+        <AuthLayout />  
+    );
 }
