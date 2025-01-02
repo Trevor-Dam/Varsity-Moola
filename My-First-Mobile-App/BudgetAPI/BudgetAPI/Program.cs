@@ -32,7 +32,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ValidIssuer = config["Issuer"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Key"]))
     });
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy("Role", policy =>
+    {
+        policy.RequireClaim("Role");
+    })
+    .AddPolicy("Institution", policy =>
+    {
+        policy.RequireClaim("Institution");
+    })
+    .AddPolicy("Email", policy =>
+    {
+        policy.RequireClaim("Email");
+    })
+    .AddPolicy("Id", policy =>
+    {
+        policy.RequireClaim("Id");
+    });
 builder.Services.AddNpgsql<BudgetDataContext>(builder.Configuration.GetConnectionString(Secrecy.getConnection()));
 
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>

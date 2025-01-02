@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { Stack } from '../index'
 import Login from "./login";
 import ForgotPassword from "./forgotPassword";
@@ -12,4 +12,4 @@ export default function AuthLayout() {
             <Stack.Screen component={ForgotPassword} name="forgotPassword" />
         </Stack.Navigator>
     );
-}
+}*/

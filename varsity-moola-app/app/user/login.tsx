@@ -16,7 +16,9 @@ import {
 
 import { useAuthContext } from '../../UserContext';
 
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import axios from 'axios'
+import '../../global.css'
 
 // App.js
 
@@ -26,32 +28,24 @@ import { Link } from '@react-navigation/native';
 
 
 
-const useAuth = () => {
-  const isAuth = useAuthContext();
 
-  return isAuth;
 
-};
+async function validateLogin(username: string, password: string) {
+    let result;
+    let value;
+    try {
+      const response = await axios.post("/api/Users/Login", 
+        {email: username, password: password}, 
+        {headers: {"Content-Type": "application/json"}});
+      await AsyncStorage.setItem("JwtToken", response.data);
+    }
+    catch (error) {
+      alert("Username or password incorrect")
+    }
 
-function validateLogin(username: string, password: string) {
-    fetch('/api/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({email: username, password: password}),
-    })
-      .then(response => response.json())
-      .then(data => {
-        useAuth().setAuth({
-          userKey: data.Id,
-          name: data.Name,
-          surname: data.Surname,
-          income: data.Income,
-          availableFunds: data.availableBalance,
-        });
-      })
-      .catch(error => console.log(error));
+      
+
+      
 }
 
 export default function Login() {
@@ -60,32 +54,32 @@ const [text, setText] = useState('');
 const [password, setPassword] = useState('');
 
 return (
-    <View className='space-y-6'>
-      <Text className='block mb-2 text-lg dark:text-gray-300'>Email</Text>
+    <View className='bg-white flex-1 justify-centre align-centre'>
+      <Text className='text-black font-serif'>Email</Text>
       <TextInput
-        className='border p-3 shadow-md dark:bg-indigo-700 dark:text-gray-300 dark:border-gray-700 border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 transition transform hover:scale-105 duration-300'
+        className='border-black rounded-1 border-solid text-black font-serif'
         id="user"
         placeholder="Username"
         onChangeText={newText => setText(newText)}
       />
       <Text 
-      className='block mb-2 text-lg dark:text-gray-300'>
+      className='bg-white flex-1 justify-centre align-centre'>
         Password
       </Text>
       <TextInput
-        className='border p-3 shadow-md dark:bg-indigo-700 dark:text-gray-300 dark:border-gray-700 border-gray-300 rounded-lg w-full focus:ring-2 focus:ring-blue-500 transition transform hover:scale-105 duration-300'
+        className='border-black rounded-1 border-solid text-black font-serif'
         id="pass"
         placeholder="Password"
         onChangeText={newText => setPassword(newText)}
         secureTextEntry={true}
       />
       <Link 
-      className='text-blue-400 text-sm transition hover:underline'
+      className='text-blue'
       to={'user/forgotPassword.tsx'}>
         <Text>Forgot Password</Text>
       </Link>
       <TouchableOpacity
-        className='w-full p-3 mt-4 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg hover:scale-105 transition transform duration-300 shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
+        className='bg-aubergine text-white rounded-10 p-10 m-10'
         onPress={() => {validateLogin(text, password);}}
       >
         <Text>Login</Text>

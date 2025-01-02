@@ -1,13 +1,8 @@
 const React = require('react');
+const AsyncStorage = require('@react-native-async-storage/async-storage')
 
  export const AuthContext = () => {
-    var context = React.createContext({
-        userKey: 0,
-        name: '',
-        surname: '',
-        income: 0,
-        availableFunds: 0
-      });
+    var context = React.CreateContext("")
     return context;
   };
 

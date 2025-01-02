@@ -1,36 +1,29 @@
 import React, { Children } from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
+
 import Login from './user/login';
-import { View, ScrollView } from 'react-native';
-import AppLayout from './_layout';
+import ForgotPassword from './user/forgotPassword';
+import { View, ScrollView, Text, TouchableOpacity } from 'react-native';
+import { Link } from 'expo-router';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // App.js
 import '../global.css';
 import { NavigationContainer } from '@react-navigation/native';
-import AuthLayout from './user/_layout';
 import { AuthContext } from '../UserContext';
 
 
-export const Stack = createStackNavigator();
 
-const authContext = AuthContext();
+;
+
+export const authContext = React.createContext(['', {}]);
 
 export default function Home() {
-  const [auth, setAuth] = React.useState({
-    userKey: 0,
-    name: '',
-    surname: '',
-    income: 0,
-    availableFunds: 0
-  });
+  const [token, setToken] = React.useState('');
     return (
         <ScrollView 
-        className='bg-gradient-to-r from-blue-500 to-purple-500 rounded-3xl'>
-          <View className='flex-1 justify-centre items-centre h-full'>   
-            <authContext.Provider value={[auth, setAuth]}>
-              <NavigationContainer>
-                <AuthLayout />
-              </NavigationContainer>
-            </authContext.Provider> 
+        className='bg-aubergine'>
+          <View className='flex-1 justify-centre items-centre'> 
+            <Text>Home</Text>
+            <Link href={'/user/login'} >Login</Link>
           </View>
         </ScrollView>
     );

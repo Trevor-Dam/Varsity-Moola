@@ -1,16 +1,21 @@
 import React from "react";
 
 import Login from "./user/login";
-import AuthLayout from "./user/_layout";
+import Home from ".";
+import AuthLayout from "./user/login";
 import { NavigationContainer } from "@react-navigation/native";
 
+import { Stack } from 'expo-router'
 
 
 
 
 export default function AppLayout() {
     
-    return (
-        <AuthLayout />  
+    return (  
+            <Stack>
+                <Stack.Screen name="index" />
+                <Stack.Screen name="login" />
+            </Stack> 
     );
 }
