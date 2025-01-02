@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v7H0FZnwcY8=",
+  "dgSpecHash": "LvrcKTWppL0=",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\Varsity-Moola\\My-First-Mobile-App\\BudgetAPI\\BudgetAPI\\BudgetAPI.csproj",
   "expectedPackageFiles": [
@@ -128,7 +128,6 @@
     "C:\\Users\\HP\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\passlib.net\\0.5.0\\passlib.net.0.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\supabase\\1.1.1\\supabase.1.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\supabase.core\\1.0.0\\supabase.core.1.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\supabase.functions\\2.0.0\\supabase.functions.2.0.0.nupkg.sha512",
@@ -171,16 +170,5 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\websocket.client\\5.1.1\\websocket.client.5.1.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Passlib.NET 0.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Passlib.NET",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

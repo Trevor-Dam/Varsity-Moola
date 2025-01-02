@@ -491,7 +491,6 @@ C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAP
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net8.0\Passlib.Net.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

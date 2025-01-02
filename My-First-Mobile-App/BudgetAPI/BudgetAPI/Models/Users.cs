@@ -18,7 +18,11 @@ namespace BudgetAPI.Models
         [Required]
         public string? Password { get; set; }
         [Required]
-        public string? Institution { get; set; }
+        [StringLength(100)]
+        public string Institution { get; set; } = string.Empty;
+        [Required]
+        [StringLength (100)]
+        public string Role {  get; set; } = string.Empty;
         
     }
 }

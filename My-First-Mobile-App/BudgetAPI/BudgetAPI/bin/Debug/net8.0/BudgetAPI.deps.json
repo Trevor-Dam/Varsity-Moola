@@ -22,7 +22,6 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10",
-          "Passlib.NET": "0.5.0",
           "Supabase": "1.1.1",
           "Supabase.Functions": "2.0.0",
           "Supabase.Gotrue": "6.0.3",
@@ -1634,14 +1633,6 @@
           }
         }
       },
-      "Passlib.NET/0.5.0": {
-        "runtime": {
-          "lib/Passlib.Net.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Supabase/1.1.1": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -2862,13 +2853,6 @@
       "sha512": "sha512-v/GGlIj2dd7svplFmASWEueu62veKW0MrMtBaZ7QG8aJTSGv2yE+pgUGhXRcQ4nxNOEq/wLBrz1vkth/1SND7A==",
       "path": "nuget.versioning/6.11.0",
       "hashPath": "nuget.versioning.6.11.0.nupkg.sha512"
-    },
-    "Passlib.NET/0.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zo6zPL+gu+i/xRQ/O9CUj9BUdRjC+DKKGJFDCvxiIANnGu58dTe80jzmlgpmXj+/899s0lPf2y5azliTXfCvjw==",
-      "path": "passlib.net/0.5.0",
-      "hashPath": "passlib.net.0.5.0.nupkg.sha512"
     },
     "Supabase/1.1.1": {
       "type": "package",
