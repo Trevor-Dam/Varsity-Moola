@@ -7,8 +7,6 @@ import { Link } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 // App.js
 import '../global.css';
-import { NavigationContainer } from '@react-navigation/native';
-import { AuthContext } from '../UserContext';
 
 
 
@@ -16,12 +14,16 @@ import { AuthContext } from '../UserContext';
 
 export const authContext = React.createContext(['', {}]);
 
+async function handleLogout() {
+  await AsyncStorage.removeItem("JwtToken");
+}
+
 export default function Home() {
-  const [token, setToken] = React.useState('');
+  handleLogout();
     return (
         <ScrollView 
         className='bg-aubergine'>
-          <View className='flex-1 justify-centre items-centre'> 
+          <View className='bg-aubergine flex-1 justify-centre items-centre'> 
             <Text>Home</Text>
             <Link href={'/user/login'} >Login</Link>
           </View>

@@ -23,7 +23,7 @@ import '../../global.css'
 // App.js
 
 
-import { Link } from '@react-navigation/native';
+import { Link } from 'expo-router';
 
 
 
@@ -31,8 +31,6 @@ import { Link } from '@react-navigation/native';
 
 
 async function validateLogin(username: string, password: string) {
-    let result;
-    let value;
     try {
       const response = await axios.post("/api/Users/Login", 
         {email: username, password: password}, 
@@ -54,7 +52,7 @@ const [text, setText] = useState('');
 const [password, setPassword] = useState('');
 
 return (
-    <View className='bg-white flex-1 justify-centre align-centre'>
+    <View className='bg-aubergine flex-1 justify-centre align-centre'>
       <Text className='text-black font-serif'>Email</Text>
       <TextInput
         className='border-black rounded-1 border-solid text-black font-serif'
@@ -75,8 +73,8 @@ return (
       />
       <Link 
       className='text-blue'
-      to={'user/forgotPassword.tsx'}>
-        <Text>Forgot Password</Text>
+      href="/user/forgotPassword">
+        Forgot Password
       </Link>
       <TouchableOpacity
         className='bg-aubergine text-white rounded-10 p-10 m-10'
