@@ -12,6 +12,8 @@ import {
   View,
   TouchableOpacity,
   TextInput,
+  Alert,
+  Button,
 } from 'react-native';
 
 import { useAuthContext } from '../../UserContext';
@@ -20,10 +22,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios'
 import '../../global.css'
 
+import AccountHome from '../account/home';
+
 // App.js
 
 
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
+import { linkTo, navigate } from 'expo-router/build/global-state/routing';
 
 
 
@@ -32,7 +37,7 @@ import { Link } from 'expo-router';
 
 async function validateLogin(username: string, password: string) {
     try {
-      const response = await axios.post("/api/Users/Login", 
+      const response = await axios.post("http://192.168.18.63:5075/api/Users/Login", 
         {email: username, password: password}, 
         {headers: {"Content-Type": "application/json"}});
       await AsyncStorage.setItem("JwtToken", response.data);
@@ -52,7 +57,7 @@ const [text, setText] = useState('');
 const [password, setPassword] = useState('');
 
 return (
-    <View className='bg-aubergine flex-1 justify-centre align-centre'>
+    <View className='bg-white flex-1 justify-centre align-centre'>
       <Text className='text-black font-serif'>Email</Text>
       <TextInput
         className='border-black rounded-1 border-solid text-black font-serif'
@@ -61,7 +66,7 @@ return (
         onChangeText={newText => setText(newText)}
       />
       <Text 
-      className='bg-white flex-1 justify-centre align-centre'>
+      className='text-black font-serif'>
         Password
       </Text>
       <TextInput
@@ -77,8 +82,17 @@ return (
         Forgot Password
       </Link>
       <TouchableOpacity
-        className='bg-aubergine text-white rounded-10 p-10 m-10'
-        onPress={() => {validateLogin(text, password);}}
+        className='bg-indigo text-white rounded-10 p-10 m-10'
+        onPress={() => {
+          validateLogin(text, password).then(result => {
+          
+            
+            router.navigate('/account/home');
+        })
+        .catch(error => {
+          Alert.alert('Invalid credentials', 'Invalid email or password')
+        })
+        }}
       >
         <Text>Login</Text>
       </TouchableOpacity>

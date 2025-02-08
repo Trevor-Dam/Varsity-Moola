@@ -52,7 +52,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("One or more values not entered")
                 {
                     ContentType = "application/json",
-                    StatusCode = 404
+                    StatusCode = 400
                 };
             }
             else if (!register.password.Equals(register.confirmPassword))
@@ -60,7 +60,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("Two Passwords do not match")
                 {
                     ContentType = "application/json",
-                    StatusCode = 400
+                    StatusCode = 409
                 };
             }
             else
@@ -90,7 +90,7 @@ namespace BudgetAPI.Controllers
                     return new JsonResult("Server malfunctioned")
                     {
                         ContentType = "application/json",
-                        StatusCode = 500
+                        StatusCode = 400
                     };
                 }
             }
@@ -107,7 +107,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("User not registered")
                 {
                     ContentType = "application/json",
-                    StatusCode = 404
+                    StatusCode = 401
                 };
             }
             else if (!Secrecy.verifyPassword(login.password, user.Password))
@@ -115,16 +115,21 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("Passwords do not match")
                 {
                     ContentType = "application/json",
-                    StatusCode = 400
+                    StatusCode = 401
                 };
 
             }
             else
             {
-                return new JsonResult(GenerateJsonWebToken(user))
+                UserData data = new()
+                {
+                    data = GenerateJsonWebToken(user)
+                };
+                return new JsonResult(data)
                 {
                     ContentType = "application/json",
-                    StatusCode = 201
+                    StatusCode = 200,
+                    
                 };
             }
         }
@@ -169,4 +174,9 @@ public class ModelLogin
 {
     public string email { get; set; }
     public string password { get; set; }
+}
+
+internal class UserData
+{
+    public string data { get; set; }
 }

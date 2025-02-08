@@ -21,12 +21,9 @@ async function handleLogout() {
 export default function Home() {
   handleLogout();
     return (
-        <ScrollView 
-        className='bg-aubergine'>
-          <View className='bg-aubergine flex-1 justify-centre items-centre'> 
+        <ScrollView className='bg-indigo'>
             <Text>Home</Text>
             <Link href={'/user/login'} >Login</Link>
-          </View>
         </ScrollView>
     );
 }
