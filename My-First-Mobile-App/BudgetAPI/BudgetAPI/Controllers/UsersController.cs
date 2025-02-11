@@ -128,7 +128,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult(data)
                 {
                     ContentType = "application/json",
-                    StatusCode = 200,
+                    StatusCode = 200
                     
                 };
             }

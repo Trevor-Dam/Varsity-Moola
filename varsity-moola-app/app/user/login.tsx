@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
 /* eslint-disable prettier/prettier */
-import React from 'react';
+import React, { useEffect } from 'react';
 ///import type {PropsWithChildren} from 'react';
 import { useState } from 'react';
 import {
@@ -22,29 +22,37 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios'
 import '../../global.css'
 
-import AccountHome from '../account/home';
+import Dashboard from '../account/dashboard';
 
 // App.js
 
 
 import { Link, router } from 'expo-router';
-import { linkTo, navigate } from 'expo-router/build/global-state/routing';
 
 
 
 
 
 
-async function validateLogin(username: string, password: string) {
-    try {
-      const response = await axios.post("http://192.168.18.63:5075/api/Users/Login", 
-        {email: username, password: password}, 
-        {headers: {"Content-Type": "application/json"}});
-      await AsyncStorage.setItem("JwtToken", response.data);
-    }
-    catch (error) {
-      alert("Username or password incorrect")
-    }
+function loginUser(username: string, password: string) {
+  AsyncStorage.removeItem('JwtToken');
+  axios.post("http://192.168.18.63:5075/api/Users/Login", 
+    {email: username, password: password}, 
+      {headers: {"Content-Type": "application/json"}}).then((successful) => {
+        if (successful.status === 200) {
+          console.log(successful.data);
+          AsyncStorage.setItem('JwtToken', successful.data);
+          router.navigate('/account/dashboard');
+        }
+        else {
+          throw new Error("Authentication error");
+          
+        }
+      })
+    .catch((error) => {
+      console.log(error);
+      Alert.alert('Access Denied', 'Invalid email or password');
+    });
 
       
 
@@ -53,8 +61,9 @@ async function validateLogin(username: string, password: string) {
 
 export default function Login() {
 
-const [text, setText] = useState('');
+const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
+AsyncStorage.removeItem('JwtToken');
 
 return (
     <View className='bg-white flex-1 justify-centre align-centre'>
@@ -62,8 +71,8 @@ return (
       <TextInput
         className='border-black rounded-1 border-solid text-black font-serif'
         id="user"
-        placeholder="Username"
-        onChangeText={newText => setText(newText)}
+        placeholder="Email"
+        onChangeText={newText => setEmail(newText)}
       />
       <Text 
       className='text-black font-serif'>
@@ -83,16 +92,7 @@ return (
       </Link>
       <TouchableOpacity
         className='bg-indigo text-white rounded-10 p-10 m-10'
-        onPress={() => {
-          validateLogin(text, password).then(result => {
-          
-            
-            router.navigate('/account/home');
-        })
-        .catch(error => {
-          Alert.alert('Invalid credentials', 'Invalid email or password')
-        })
-        }}
+        onPress={() => loginUser(email, password)}
       >
         <Text>Login</Text>
       </TouchableOpacity>

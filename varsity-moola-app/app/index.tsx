@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React, { Children } from 'react';
 
 import Login from './user/login';
 import ForgotPassword from './user/forgotPassword';
@@ -8,14 +8,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // App.js
 import '../global.css';
 
-
-
-;
-
-export const authContext = React.createContext(['', {}]);
-
-async function handleLogout() {
-  await AsyncStorage.removeItem("JwtToken");
+function handleLogout() {
+  AsyncStorage.removeItem("JwtToken");
 }
 
 export default function Home() {
