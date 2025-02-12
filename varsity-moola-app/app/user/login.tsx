@@ -36,12 +36,13 @@ import { Link, router } from 'expo-router';
 
 function loginUser(username: string, password: string) {
   AsyncStorage.removeItem('JwtToken');
-  axios.post("http://192.168.18.63:5075/api/Users/Login", 
+  axios.post("http://10.0.2.2:5075/api/Users/Login", 
     {email: username, password: password}, 
       {headers: {"Content-Type": "application/json"}}).then((successful) => {
         if (successful.status === 200) {
-          console.log(successful.data);
-          AsyncStorage.setItem('JwtToken', successful.data);
+          var data = JSON.parse(successful.data);
+          console.log(data);
+          AsyncStorage.setItem('JwtToken', data);
           router.navigate('/account/dashboard');
         }
         else {
