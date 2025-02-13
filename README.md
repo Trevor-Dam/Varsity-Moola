@@ -3,13 +3,13 @@ Varsity Moola is a budgeting app designed to encourage university students to be
 The app looks at transactions over the past three months to provide students with analytics that will inform them of future spending habits.
 
 ## Tools used
-1. Mobile App
-  * React Native
-2. REST API
-  * ASP.NET Core
-  * .NET 8
-3. Database
-  * PostgreSQL
+* Mobile App
+  - React Native
+* REST API
+  - ASP.NET Core
+  - .NET 8
+* Database
+  - PostgreSQL
 
 ## How to run the system
 1. Create a version of the database using the models provided, change the connection string to a PostgreSQL version that works locally on your machine
