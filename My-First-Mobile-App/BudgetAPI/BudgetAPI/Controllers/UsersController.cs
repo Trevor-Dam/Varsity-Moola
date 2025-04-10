@@ -39,7 +39,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("User already exists")
                 {
                     ContentType = "application/json",
-                    StatusCode = 400
+                    StatusCode = 401
                 };
             }
             else if ((string.IsNullOrEmpty(register.email)) 
@@ -60,7 +60,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("Two Passwords do not match")
                 {
                     ContentType = "application/json",
-                    StatusCode = 409
+                    StatusCode = 403
                 };
             }
             else
@@ -107,7 +107,7 @@ namespace BudgetAPI.Controllers
                 return new JsonResult("User not registered")
                 {
                     ContentType = "application/json",
-                    StatusCode = 401
+                    StatusCode = 400
                 };
             }
             else if (!Secrecy.verifyPassword(login.password, user.Password))
@@ -149,6 +149,7 @@ namespace BudgetAPI.Controllers
             var token = new JwtSecurityToken(_config["Jwt:Issuer"],
                 _config["Jwt:Issuer"],
                 claimsList,
+                null,
                 expires: DateTime.UtcNow.AddDays(30),
                 signingCredentials: credentials
                 );

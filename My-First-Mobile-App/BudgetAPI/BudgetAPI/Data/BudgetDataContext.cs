@@ -10,11 +10,11 @@ namespace BudgetAPI.Data
         {
         }
         public DbSet<Users> User { get; set; }
+        public DbSet<Account> Account { get; set; }
         public DbSet<Income> Income { get; set; }
         public DbSet<Expense> Expense { get; set; }
         public DbSet<Balance> Balance { get; set; }
-        public DbSet<Account> Account { get; set; }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>()

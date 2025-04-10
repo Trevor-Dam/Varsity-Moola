@@ -4,24 +4,27 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BudgetAPI.Models
 {
-    [PrimaryKey(nameof(UserId), nameof(BalanceId))]
     public class Account
     {
+        [Key]
+        public int AccountId { get; set; }
         [Required]
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
         public Users User { get; set; }
         [Required]
-        [ForeignKey(nameof(Balance))]
-        public int BalanceId { get; set; }
-        public Balance Balance { get; set; }
+        [StringLength(16)]
+        public string CardNumber { get; set; } = string.Empty;
         [Required]
-        public double Liabilities { get; set; }
+        [StringLength(3)]
+        public string CVV { get; set; } = string.Empty.PadLeft(2, '0');
         [Required]
-        public double Target {  get; set; }
+        public DateTime ExpiryDate { get; set; }
         [Required]
-        public double Amount { get; set; } = 0;
+        public double Balance { get; set; } = 0;
         [Required]
-        public double Savings { get; set; }
+        public double Target { get; set; } = 0;
+        [Required]
+        public double Savings { get; set; } = 0;
     }
 }

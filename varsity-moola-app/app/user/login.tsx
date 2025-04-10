@@ -14,6 +14,7 @@ import {
   TextInput,
   Alert,
   Button,
+  StyleSheet,
 } from 'react-native';
 
 import { useAuthContext } from '../../UserContext';
@@ -28,6 +29,7 @@ import Dashboard from '../account/dashboard';
 
 
 import { Link, router } from 'expo-router';
+import { useNavigation } from '@react-navigation/native';
 
 
 
@@ -60,44 +62,86 @@ function loginUser(username: string, password: string) {
       
 }
 
-export default function Login() {
+export default function Login(prop: {navigation: any}) {
 
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
 AsyncStorage.removeItem('JwtToken');
 
 return (
-    <View className='bg-white flex-1 justify-centre align-centre'>
-      <Text className='text-black font-serif'>Email</Text>
-      <TextInput
-        className='border-black rounded-1 border-solid text-black font-serif'
-        id="user"
-        placeholder="Email"
-        onChangeText={newText => setEmail(newText)}
-      />
-      <Text 
-      className='text-black font-serif'>
-        Password
-      </Text>
-      <TextInput
-        className='border-black rounded-1 border-solid text-black font-serif'
-        id="pass"
-        placeholder="Password"
-        onChangeText={newText => setPassword(newText)}
-        secureTextEntry={true}
-      />
-      <Link 
-      className='text-blue'
-      href="/user/forgotPassword">
-        Forgot Password
-      </Link>
-      <TouchableOpacity
-        className='bg-indigo text-white rounded-10 p-10 m-10'
-        onPress={() => loginUser(email, password)}
-      >
-        <Text>Login</Text>
-      </TouchableOpacity>
-    </View>
+  <View style={styles.container}>
+  <View style={styles.view}>
+    <Text style={styles.text}>Email</Text>
+    <TextInput
+      style={styles.input}
+      id="user"
+      placeholder="Email"
+      onChangeText={newText => setEmail(newText)}
+    />
+    <Text 
+    style={styles.text}>
+      Password
+    </Text>
+    <TextInput
+      style={styles.input}
+      id="pass"
+      placeholder="Password"
+      onChangeText={newText => setPassword(newText)}
+      secureTextEntry={true}
+    />
+    <Link 
+    href="/user/forgotPassword">
+      Forgot Password
+    </Link>
+    <TouchableOpacity
+      style={styles.button}
+      onPress={() => loginUser(email, password)}
+    >
+      <Text>Login</Text>
+    </TouchableOpacity>
+  </View>
+  </View>
 );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'indigo',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  text: {
+    color: 'black',
+    fontFamily: 'sans-serif',
+    fontSize: 20
+  },
+  input: {
+    color: 'black',
+    fontFamily: 'sans-serif',
+    fontSize: 20,
+    borderCurve: 'circular',
+    borderColor: 'black',
+    borderRadius: 20,
+    borderStyle: 'solid'
+  },
+  button: {
+    backgroundColor: 'indigo',
+    color: 'white',
+    fontFamily: 'sans-serif',
+    fontSize: 30,
+    padding: 30,
+    margin: 40,
+    borderRadius: 20,
+},
+buttonText: {
+  color: 'white',
+  fontFamily: 'sans-serif'
+},
+view: {
+  backgroundColor: 'white',
+  justifyContent: 'center',
+  alignItems: 'center'
+}
+}
+)
