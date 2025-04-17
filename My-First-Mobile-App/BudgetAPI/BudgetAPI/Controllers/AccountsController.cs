@@ -8,6 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using BudgetAPI.Data;
 using BudgetAPI.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Microsoft.IdentityModel.JsonWebTokens;
+using Microsoft.AspNetCore.Authentication.BearerToken;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace BudgetAPI.Controllers
 {
@@ -21,13 +26,17 @@ namespace BudgetAPI.Controllers
         {
             _context = context;
         }
+        protected int GetUserId()
+        {
+            return int.Parse(this.User.Claims.First(i => i.Type == "Id").Value);
+        }
         [Route("Add")]
         [HttpPost]
         [Authorize]
         public IActionResult AddAccount([FromBody] ModelAccount account)
         {
             var user = (from u in _context.User 
-                        where u.Id == account.userId 
+                        where u.Id == GetUserId()
                         select u).FirstOrDefault();
             if (user == null)
             {
@@ -43,8 +52,11 @@ namespace BudgetAPI.Controllers
                 {
                     User = user,
                     Balance = 0,
-                    Savings = account.savings,
-                    Target = account.target
+                    CVV = account.secureCodes,
+                    CardNumber = account.cardNo,
+                    ExpiryDate = DateOnly.Parse(account.expirationDate),
+                    Savings = 0,
+                    Target = 0
                 };
                 _context.Add(acc);
                 try
@@ -74,10 +86,9 @@ namespace BudgetAPI.Controllers
 
 public class ModelAccount
 {
-    public int userId { get; set; }
-    public int balanceId { get; set; }
-    public double liabilities { get; set; }
-    public double target { get; set; }
-    public double amount { get; set; }
-    public double savings { get; set; }
+    public string accountHolderName { get; set; }
+    public string accountHolderSurname { get; set; }
+    public string cardNo { get; set; }
+    public string expirationDate { get; set; }
+    public string secureCodes { get; set; }
 }

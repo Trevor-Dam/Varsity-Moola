@@ -1,27 +1,28 @@
 import React, { useEffect } from "react";
 import { View, Text, TextInput, StyleSheet, TouchableOpacity } from "react-native";
-import analytics from "@react-native-firebase/analytics";
-import { getApp } from "@react-native-firebase/app";
-import { getAnalytics } from "@react-native-firebase/analytics";
+import app from "@react-native-firebase/app";
+import { getAnalytics }  from "@react-native-firebase/analytics";
 import axios from "axios";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const useAccount = (cardNo: string, expire: number, secureCode: string, zipCode: string) => {
+const useAccount = 
+(accountHolder: string, cardNo: string, expire: number, secureCode: string) => {
   useEffect(() => {
-    const app = getApp();
-    const analytics = getAnalytics(app);
-    analytics.logEvent('add_account', {
+    app.analytics().logEvent('track_bank_card', {
+      accountHolderName: accountHolder,
       cardNumber: cardNo,
       expirationDate: expire,
       secureCodes: secureCode,
-      zipCodes: zipCode,
     });
-    axios.post('http://10.0.2.2:5075/api/add_account', {
-      cardNo: cardNo,
+    axios.post('http://10.0.2.2:5075/api/Accounts/Add', {
+      accountHolderName: accountHolder,
+      cardNumber: cardNo,
       expirationDate: expire,
       secureCodes: secureCode,
-      zipCodes: zipCode,
     },
-  {headers: {"Content-Type": "application/json"}}).then((successful) => {
+  {headers: {"Content-Type": "application/json",
+     "Authorization": "Bearer " + AsyncStorage.getItem('JwtToken')}})
+     .then((successful) => {
       if (successful.status === 200) {
         console.log("Account added successfully");
         console.log(successful.data);
@@ -33,11 +34,10 @@ const useAccount = (cardNo: string, expire: number, secureCode: string, zipCode:
 }
 
 export default function AddAccountPage() {
-    const [accountName, setAccountName] = React.useState('');
+    const [accountHolderName, setAccountHolderName] = React.useState('');
     const [cardNumber, setCardNumber] = React.useState('');
     const [expirationDate, setExpirationDate] = React.useState(Date.parse(''));
     const [securityCode, setSecurityCode] = React.useState('');
-    const [zipCode, setZipCode] = React.useState('');
     return (
         <View style={styles.container}>
             <View style={styles.view}>
@@ -46,7 +46,7 @@ export default function AddAccountPage() {
                 </Text>
                 <TextInput 
                 style={styles.input}
-                onChangeText={newText => setAccountName(newText)}
+                onChangeText={newText => setAccountHolderName(newText)}
                 />
                 <Text style={styles.text}>
                     Card Number
@@ -55,30 +55,25 @@ export default function AddAccountPage() {
                 style={styles.input}
                 onChangeText={newText => setCardNumber(newText)}
                 />
-                <Text style={styles.text}>
-                    Expiration Date
-                </Text>
-                <TextInput 
-                style={styles.input}
-                onChangeText={newText => setExpirationDate(Date.parse(newText))}
-                />
-                <Text style={styles.text}>
-                    Security Code
-                </Text>
-                <TextInput 
-                style={styles.input}
-                onChangeText={newText => setSecurityCode(newText)}
-                />
-                <Text style={styles.text}>
-                    Zip Code
-                </Text>
-                <TextInput 
-                style={styles.input}
-                onChangeText={newText => setZipCode(newText)}
-                />
+                <View>
+                  <Text style={styles.text}>
+                      Expiration Date
+                  </Text>
+                  <TextInput 
+                  style={styles.input}
+                  onChangeText={newText => setExpirationDate(Date.parse(newText))}
+                  />
+                  <Text style={styles.text}>
+                      Security Code
+                  </Text>
+                  <TextInput 
+                  style={styles.input}
+                  onChangeText={newText => setSecurityCode(newText)}
+                  />
+                </View>
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => useAccount(cardNumber, expirationDate, securityCode, zipCode)}>
+                    onPress={() => useAccount(accountHolderName ,cardNumber, expirationDate, securityCode)}>
                     <Text style={styles.buttonText}>
                         Add Account to Wallet
                     </Text>
@@ -125,6 +120,13 @@ buttonText: {
 view: {
   backgroundColor: 'white',
   justifyContent: 'center',
-  alignItems: 'center'
+  alignItems: 'flex-start'
+},
+table : {
+  width: '50%',
+  height: 30
+},
+column: {
+  height: 15,
 }
 });

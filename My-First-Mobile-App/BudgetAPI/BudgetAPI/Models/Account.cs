@@ -19,7 +19,7 @@ namespace BudgetAPI.Models
         [StringLength(3)]
         public string CVV { get; set; } = string.Empty.PadLeft(2, '0');
         [Required]
-        public DateTime ExpiryDate { get; set; }
+        public DateOnly ExpiryDate { get; set; }
         [Required]
         public double Balance { get; set; } = 0;
         [Required]

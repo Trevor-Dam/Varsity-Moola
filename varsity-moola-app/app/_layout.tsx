@@ -20,6 +20,8 @@ export default function AppLayout() {
             <Stack.Screen name="forgotPassword" />
             
             <Stack.Screen name="dashboard" />
+            <Stack.Screen name="account" />
+            <Stack.Screen name="account/[id]" />
         </Stack>
                  
     );
