@@ -23,7 +23,9 @@ export default function TransactionPage() {
     return (
         <View style={styles.container}>
             <Text style={styles.heading}>Account Details</Text>
-            <Text style={styles.text}>Available Balance: {userData.Balance}</Text>
+            <Text style={styles.text}>
+                Available Balance: {userData.Balance}
+            </Text>
             <View>
                 <PieChart
                     data={userData.PieChartData.map((item: any) => 

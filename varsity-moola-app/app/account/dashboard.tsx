@@ -2,7 +2,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 import { router } from "expo-router";
 import React from "react";
-import { Text, Touchable, TouchableOpacity, View } from "react-native";
+import { Text, Touchable, TouchableOpacity, View, StyleSheet } from "react-native";
 
 export default function Dashboard() {
     let userData: any;
@@ -20,14 +20,47 @@ export default function Dashboard() {
     }, []);
     return (
         <View>
-            <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Dashboard</Text>
-            <Text style={{ fontSize: 18, marginVertical: 10 }}>Account Holder: {userData.AccountHolderName}</Text>
-            <Text style={{ fontSize: 18, marginVertical: 10 }}>Savings Goal: {userData.Target}</Text>
-            <TouchableOpacity style={{ padding: 10, backgroundColor: '#f0f0f0', borderRadius: 5 }} 
+            <Text style={styles.heading}>Dashboard</Text>
+            <Text style={styles.text}>Account Holder: {userData.AccountHolderName}</Text>
+            <Text style={styles.text}>Savings Goal: {userData.Target}</Text>
+            <TouchableOpacity style={styles.button} 
             onPress={() => router.navigate('/account/[id]', { id: userData.id })}>
-                <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{userData.CardNo}</Text>
-                <Text style={{ fontSize: 16 }}>{userData.AccountBalance}</Text>
+                <Text style={styles.heading}>{userData.CardNo}</Text>
+                <Text style={styles.buttonText}>{userData.AccountBalance}</Text>
             </TouchableOpacity>
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 20,
+        padding: 20,
+    },
+    heading: {
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
+    text: {
+        fontSize: 18,
+        marginVertical: 10,
+    },
+    transactionContainer: {
+        marginVertical: 5,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+    },
+    button: {
+        backgroundColor: '#007BFF',
+        padding: 10,
+        borderRadius: 5,
+        marginTop: 20,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 16,
+        textAlign: 'center',
+    },
+});
