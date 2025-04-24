@@ -1,8 +1,9 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import { useGlobalSearchParams, useRouter } from "expo-router";
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { PieChart } from "react-native-gifted-charts";
 
 export default function TransactionPage() {
     let userData: any;
@@ -20,13 +21,43 @@ export default function TransactionPage() {
                 })
     }, []);
     return (
-        <View style={{ marginTop: 20 }}>
-                <Text style={{ fontSize: 18, fontWeight: 'bold' }}>Transaction History</Text>
+        <View style={styles.container}>
+            <Text style={styles.heading}>Account Details</Text>
+            <Text style={styles.text}>Available Balance: {userData.Balance}</Text>
+            <View>
+                <PieChart
+                    data={userData.PieChartData.map((item: any) => 
+                    ({ name: item.name, value: item.value }))} />
+            </View>
+                <Text style={styles.heading}>Transaction History</Text>
                 {userData.TransactionHistory.map((transaction: any) => (
-                    <View key={transaction.id} style={{ marginVertical: 5 }}>
+                    <View key={transaction.id} 
+                    style={styles.transactionContainer}>
                         <Text>{transaction.date}: {transaction.amount}</Text>
                     </View>
                 ))}
             </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 20,
+        padding: 20,
+    },
+    heading: {
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
+    text: {
+        fontSize: 18,
+        marginVertical: 10,
+    },
+    transactionContainer: {
+        marginVertical: 5,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+    }
+});
