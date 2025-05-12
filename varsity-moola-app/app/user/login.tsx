@@ -130,8 +130,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   button: {
-    backgroundColor: 'indigo',
-    color: 'white',
+    backgroundColor: '#372531',
     fontFamily: 'sans-serif',
     fontSize: 30,
     padding: 30,

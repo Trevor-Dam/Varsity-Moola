@@ -85,13 +85,13 @@ export default function AddAccountPage() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'indigo',
+    backgroundColor: '#372531',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
   },
   text: {
-    color: 'black',
+    color: 'white',
     fontFamily: 'sans-serif',
     fontSize: 20
   },

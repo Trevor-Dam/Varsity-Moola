@@ -44,6 +44,8 @@ export default function TransactionPage() {
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+        backgroundColor: '#372531',
         marginTop: 20,
         padding: 20,
     },
@@ -52,6 +54,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     text: {
+        color: 'white',
         fontSize: 18,
         marginVertical: 10,
     },
