@@ -106,7 +106,7 @@ return (
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'indigo',
+    backgroundColor: '#372531',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
@@ -114,7 +114,9 @@ const styles = StyleSheet.create({
   text: {
     color: 'black',
     fontFamily: 'sans-serif',
-    fontSize: 20
+    fontSize: 20,
+    textAlign: 'left',
+    margin: 10,
   },
   input: {
     color: 'black',
@@ -123,7 +125,9 @@ const styles = StyleSheet.create({
     borderCurve: 'circular',
     borderColor: 'black',
     borderRadius: 20,
-    borderStyle: 'solid'
+    borderStyle: 'solid',
+    textAlign: 'left',
+    margin: 10,
   },
   button: {
     backgroundColor: 'indigo',

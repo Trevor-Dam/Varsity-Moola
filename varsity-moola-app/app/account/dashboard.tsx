@@ -24,7 +24,7 @@ export default function Dashboard() {
             <Text style={styles.text}>Account Holder: {userData.AccountHolderName}</Text>
             <Text style={styles.text}>Savings Goal: {userData.Target}</Text>
             <TouchableOpacity style={styles.button} 
-            onPress={() => router.navigate('/account/[id]', { id: userData.id })}>
+            onPress={() => router.navigate('/account', { id: userData.id })}>
                 <Text style={styles.heading}>{userData.CardNo}</Text>
                 <Text style={styles.buttonText}>{userData.AccountBalance}</Text>
             </TouchableOpacity>

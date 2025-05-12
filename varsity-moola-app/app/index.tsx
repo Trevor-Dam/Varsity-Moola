@@ -31,18 +31,20 @@ export default function LandingPage() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'indigo',
+    backgroundColor: '#372531',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
   },
   text: {
-    color: 'indigo',
+    color: 'black',
     fontFamily: 'sans-serif',
-    fontSize: 50
+    fontSize: 50,
+    fontWeight: 'bold',
+    margin: 50,
   },
   link: {
-    color: 'indigo',
+    color: 'blue',
     padding: 50,
     margin: 50,
     textDecorationLine: 'underline'
