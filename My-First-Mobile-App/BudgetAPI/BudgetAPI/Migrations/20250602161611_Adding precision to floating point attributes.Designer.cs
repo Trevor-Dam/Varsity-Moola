@@ -3,6 +3,7 @@ using System;
 using BudgetAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BudgetAPI.Migrations
 {
     [DbContext(typeof(BudgetDataContext))]
-    partial class BudgetDataContextModelSnapshot : ModelSnapshot
+    [Migration("20250602161611_Adding precision to floating point attributes")]
+    partial class Addingprecisiontofloatingpointattributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

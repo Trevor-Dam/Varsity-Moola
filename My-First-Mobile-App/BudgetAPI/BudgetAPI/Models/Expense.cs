@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
 namespace BudgetAPI.Models
@@ -8,6 +9,7 @@ namespace BudgetAPI.Models
         [Key]
         public int Id { get; set; }
         [Required]
+        [Precision(10,2)]
         public double MoneyOut { get; set; }
         [Required]
         public string Store {  get; set; } = string.Empty;

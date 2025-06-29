@@ -276,12 +276,6 @@ C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAP
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets\msbuild.BudgetAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.BudgetAPI.props
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.BudgetAPI.props
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.BudgetAPI.props
-C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\BudgetAPI.csproj.Up2Date
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\BudgetAPI.dll
@@ -298,3 +292,4 @@ C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAP
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\OneDrive\Documents\GitHub\Varsity-Moola\My-First-Mobile-App\BudgetAPI\BudgetAPI\obj\Debug\net9.0\staticwebassets.build.json.cache

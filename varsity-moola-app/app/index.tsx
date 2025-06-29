@@ -1,4 +1,5 @@
 import React, { Children } from 'react';
+import './global.css';
 
 import Login from './user/login';
 import ForgotPassword from './user/forgotPassword';
@@ -16,13 +17,13 @@ export default function LandingPage() {
   const navigation = useNavigation();
   handleLogout();
     return (
-      <View style={styles.container}>
-      <View style={styles.view}>
-        <Text style={styles.text}>Home</Text>
+      <View className='flex-1 justify-center items-center bg-white dark:bg-gray-900'>
+      <View className='bg-white dark:bg-gray-900 justify-center items-center font-sans text-gray-900 dark:text-white p-4 rounded-lg border-sky-800 dark:border-sky-500 border-2 shadow-lg'>
+        <Text className='font-bold text-xl'>Home</Text>
         <TouchableOpacity onPress={() => {
           router.navigate('/user/login');
-        }}>
-          <Text>Go to Login</Text>
+        }} className='bg-sky-800 dark:bg-sky-500 p-4 rounded-lg mt-4 text-gray-100 dark:text-gray-900'>
+          <Text className='text-lg'>Go to Login</Text>
         </TouchableOpacity>
       </View>
       </View>

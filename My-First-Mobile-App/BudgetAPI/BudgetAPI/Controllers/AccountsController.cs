@@ -32,7 +32,7 @@ namespace BudgetAPI.Controllers
         }
         [Route("Add")]
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Student")]
         public IActionResult AddAccount([FromBody] ModelAccount account)
         {
             var user = (from u in _context.User 
@@ -48,7 +48,7 @@ namespace BudgetAPI.Controllers
             }
             else
             {
-                Account acc = new Account
+                Account acc = new()
                 {
                     User = user,
                     Balance = 0,
@@ -62,7 +62,8 @@ namespace BudgetAPI.Controllers
                 try
                 {
                     _context.SaveChanges();
-                    return new JsonResult("Account added")
+                    OutputData<Account> output = new(acc);
+                    return new JsonResult(output.Data)
                     {
                         ContentType = "application/json",
                         StatusCode = 201
@@ -81,14 +82,46 @@ namespace BudgetAPI.Controllers
             }
                 
         }
+        [HttpGet]
+        [Authorize(Roles = "Student")]
+        public IActionResult GetAccount()
+        {
+            dynamic account = (from a in _context.Account
+                               join u in _context.User
+                               on a.UserId equals u.Id
+                               select a).DefaultIfEmpty();
+            List<OutputData<Account>> accOutput = new List<OutputData<Account>>();
+            if (account != null)
+            {
+                foreach (var acc in account)
+                {
+                    accOutput.Add(new OutputData<Account>(acc));
+                }
+                for (int i = 0;  i < accOutput.Count; i++)
+                {
+                    return new JsonResult(accOutput[i].Data)
+                    {
+                        ContentType = "application/json",
+                        StatusCode = 200
+                    };
+                }
+            }
+            
+            return new JsonResult("Could not retrieve account information")
+            {
+                ContentType = "application/json",
+                StatusCode = 400
+            };
+            
+        }
     }  
 }
 
 public class ModelAccount
 {
-    public string accountHolderName { get; set; }
-    public string accountHolderSurname { get; set; }
-    public string cardNo { get; set; }
-    public string expirationDate { get; set; }
-    public string secureCodes { get; set; }
+    public string accountHolderName { get; set; } = string.Empty;
+    public string accountHolderSurname { get; set; } = string.Empty;
+    public string cardNo { get; set; } = string.Empty;
+    public string expirationDate { get; set; } = string.Empty;
+    public string secureCodes { get; set; } = string.Empty;
 }

@@ -121,11 +121,8 @@ namespace BudgetAPI.Controllers
             }
             else
             {
-                UserData data = new()
-                {
-                    data = GenerateJsonWebToken(user)
-                };
-                return new JsonResult(data)
+                OutputData<String> data = new(GenerateJsonWebToken(user));
+                return new JsonResult(data.Data)
                 {
                     ContentType = "application/json",
                     StatusCode = 200
@@ -162,22 +159,19 @@ namespace BudgetAPI.Controllers
 //class that receives registration data from client
 public class ModelRegister
 {
-    public string email { get; set; }
-    public string password { get; set; }
-    public string confirmPassword { get; set; }
-    public string name { get; set; }
-    public string surname { get; set; }
-    public string institution { get; set; }
-    public string role { get; set; }
+    public string email { get; set; } = string.Empty;
+    public string password { get; set; } = string.Empty;
+    public string confirmPassword { get; set; } = string.Empty;
+    public string name { get; set; } = string.Empty;
+    public string surname { get; set; } = string.Empty;
+    public string institution { get; set; } = string.Empty;
+    public string role { get; set; } = string.Empty;
 }
 //records login data from client
 public class ModelLogin
 {
-    public string email { get; set; }
-    public string password { get; set; }
+    public string email { get; set; } = string.Empty;
+    public string password { get; set; } = string.Empty;
 }
 
-internal class UserData
-{
-    public string data { get; set; }
-}
+

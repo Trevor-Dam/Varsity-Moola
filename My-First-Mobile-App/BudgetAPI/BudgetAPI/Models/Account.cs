@@ -21,10 +21,13 @@ namespace BudgetAPI.Models
         [Required]
         public DateOnly ExpiryDate { get; set; }
         [Required]
+        [Precision(10,2)]
         public double Balance { get; set; } = 0;
         [Required]
+        [Precision(10,2)]
         public double Target { get; set; } = 0;
         [Required]
+        [Precision(10,2)]
         public double Savings { get; set; } = 0;
     }
 }

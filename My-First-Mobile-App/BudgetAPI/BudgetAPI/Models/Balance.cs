@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace BudgetAPI.Models
 {
@@ -19,8 +20,10 @@ namespace BudgetAPI.Models
         public int ExpenseId { get; set; }
         public Expense Expense { get; set; }
         [Required]
+        [Precision(10,2)]
         public double PreviousBalance { get; set; }
         [Required]
+        [Precision(10,2)]
         public double AvailableBalance { get; set; }
         [Required]
         public bool ValidTransaction { get; set; }
