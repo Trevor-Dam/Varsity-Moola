@@ -17,7 +17,7 @@ namespace BudgetAPI.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.4")
+                .HasAnnotation("ProductVersion", "9.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -120,10 +120,6 @@ namespace BudgetAPI.Migrations
                     b.Property<double>("MoneyOut")
                         .HasPrecision(10, 2)
                         .HasColumnType("double precision");
-
-                    b.Property<string>("Store")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.HasKey("Id");
 

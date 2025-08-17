@@ -1,27 +1,22 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
 /* eslint-disable prettier/prettier */
-import React, { useEffect } from 'react';
+import React from 'react';
 ///import type {PropsWithChildren} from 'react';
 import { useState } from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
   Text,
-  useColorScheme,
   View,
   TouchableOpacity,
   TextInput,
-  Alert,
-  Button,
-  StyleSheet,
+  Alert
 } from 'react-native';
 
-import { useAuthContext } from '../../UserContext';
+//import { useAuthContext } from '../../UserContext';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios'
-import '../../global.css'
+import '../global.css';
 
 import Dashboard from '../account/dashboard';
 
@@ -69,21 +64,21 @@ const [password, setPassword] = useState('');
 AsyncStorage.removeItem('JwtToken');
 
 return (
-  <View style={styles.container}>
-  <View style={styles.view}>
-    <Text style={styles.text}>Email</Text>
+  <View className='flex-1 justify-center items-center bg-white dark:bg-gray-900'>
+  <View className='bg-white dark:bg-gray-900 justify-center items-start font-sans text-gray-900 dark:text-white p-4 rounded-2xl border-blue-800 dark:border-blue-400 border-2 shadow-lg w-full max-w-md'>
+    <Text className='text-lg text-left'>Email</Text>
     <TextInput
-      style={styles.input}
+      className='text-lg text-left border-2 border-gray-300 rounded-lg p-2 mb-4 w-11/12'
       id="user"
       placeholder="Email"
       onChangeText={newText => setEmail(newText)}
     />
     <Text 
-    style={styles.text}>
+    className='text-lg'>
       Password
     </Text>
     <TextInput
-      style={styles.input}
+      className='text-lg text-left border-2 border-gray-300 rounded-lg p-2 mb-4 w-11/12'
       id="pass"
       placeholder="Password"
       onChangeText={newText => setPassword(newText)}
@@ -94,57 +89,12 @@ return (
       Forgot Password
     </Link>
     <TouchableOpacity
-      style={styles.button}
+      className='bg-blue-800 dark:bg-blue-400 p-4 rounded-lg mt-4 text-gray-100 dark:text-gray-900 w-11/12 items-center'
       onPress={() => loginUser(email, password)}
     >
-      <Text>Login</Text>
+      <Text className='text-lg text-gray-100 dark:text-gray-900'>Login</Text>
     </TouchableOpacity>
   </View>
   </View>
 );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#372531',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  text: {
-    color: 'black',
-    fontFamily: 'sans-serif',
-    fontSize: 20,
-    textAlign: 'left',
-    margin: 10,
-  },
-  input: {
-    color: 'black',
-    fontFamily: 'sans-serif',
-    fontSize: 20,
-    borderCurve: 'circular',
-    borderColor: 'black',
-    borderRadius: 20,
-    borderStyle: 'solid',
-    textAlign: 'left',
-    margin: 10,
-  },
-  button: {
-    backgroundColor: '#372531',
-    fontFamily: 'sans-serif',
-    fontSize: 30,
-    padding: 30,
-    margin: 40,
-    borderRadius: 20,
-},
-buttonText: {
-  color: 'white',
-  fontFamily: 'sans-serif'
-},
-view: {
-  backgroundColor: 'white',
-  justifyContent: 'center',
-  alignItems: 'center'
-}
-}
-)

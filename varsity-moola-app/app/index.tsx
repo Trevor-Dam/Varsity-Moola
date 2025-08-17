@@ -18,41 +18,14 @@ export default function LandingPage() {
   handleLogout();
     return (
       <View className='flex-1 justify-center items-center bg-white dark:bg-gray-900'>
-      <View className='bg-white dark:bg-gray-900 justify-center items-center font-sans text-gray-900 dark:text-white p-4 rounded-lg border-sky-800 dark:border-sky-500 border-2 shadow-lg'>
+      <View className='bg-white dark:bg-gray-900 justify-center items-center font-sans text-gray-900 dark:text-white p-4 rounded-lg border-blue-800 dark:border-blue-400 border-2 shadow-lg w-screen max-w-md'>
         <Text className='font-bold text-xl'>Home</Text>
         <TouchableOpacity onPress={() => {
           router.navigate('/user/login');
-        }} className='bg-sky-800 dark:bg-sky-500 p-4 rounded-lg mt-4 text-gray-100 dark:text-gray-900'>
-          <Text className='text-lg'>Go to Login</Text>
+        }} className='bg-blue-800 dark:bg-blue-400 p-4 rounded-lg mt-4 text-gray-900 dark:text-gray-100 w-fit'>
+          <Text className='text-lg text-gray-100 dark:text-gray-900'>Go to Login</Text>
         </TouchableOpacity>
       </View>
       </View>
     );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#372531',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  text: {
-    color: 'black',
-    fontFamily: 'sans-serif',
-    fontSize: 50,
-    fontWeight: 'bold',
-    margin: 50,
-  },
-  link: {
-    color: 'blue',
-    padding: 50,
-    margin: 50,
-    textDecorationLine: 'underline'
-  },
-  view: {
-    backgroundColor: 'white',
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-})

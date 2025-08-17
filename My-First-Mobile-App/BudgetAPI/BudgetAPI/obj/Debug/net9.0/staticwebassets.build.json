@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "KnrxAbOvu5AHrRNJfDeDwqefHZOF652/XerZt6bIVy8=",
-  "Source": "BudgetAPI",
-  "BasePath": "_content/BudgetAPI",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"KnrxAbOvu5AHrRNJfDeDwqefHZOF652/XerZt6bIVy8=","Source":"BudgetAPI","BasePath":"_content/BudgetAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

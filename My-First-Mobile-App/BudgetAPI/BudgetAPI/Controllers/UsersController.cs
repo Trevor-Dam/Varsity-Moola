@@ -24,7 +24,7 @@ namespace BudgetAPI.Controllers
         private readonly BudgetDataContext _context = context;
         private readonly IConfiguration _config = config;
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("Register")]
         [Consumes("application/json")]
@@ -93,6 +93,51 @@ namespace BudgetAPI.Controllers
                         StatusCode = 400
                     };
                 }
+            }
+        }
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [Route("Register/All")]
+        [Consumes("application/json")]
+        public IActionResult RegisterAllStudents([FromBody] ModelRegister[] users)
+        {
+            List<Users> usersList = new List<Users>();
+            foreach (ModelRegister modelRegister in users)
+            {
+                var user = new Users
+                {
+                    Email = modelRegister.email,
+                    Password = Secrecy.hashString(modelRegister.password),
+                    Name = modelRegister.name,
+                    Surname = modelRegister.surname,
+                    Institution = modelRegister.institution,
+                    Role = modelRegister.role
+                };
+                _context.Add(user);
+                try { _context.SaveChanges(); }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.GetBaseException().StackTrace);
+                    Console.WriteLine("Could not add " + user.Email);
+                    usersList.Add(user);
+                }
+            }
+            if (usersList.Count > 0)
+            {
+                Console.WriteLine(usersList.ToString());
+                return new JsonResult("Could not add " + usersList.Count + " users")
+                {
+                    ContentType = "application/json",
+                    StatusCode = 400
+                };
+            }
+            else
+            {
+                return new JsonResult("All users added")
+                {
+                    ContentType = "application/json",
+                    StatusCode = 201
+                };
             }
         }
         [AllowAnonymous]

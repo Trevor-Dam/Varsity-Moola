@@ -24,7 +24,7 @@ namespace BudgetAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(Secrecy.getConnection());
+            optionsBuilder.UseNpgsql("User Id=postgres.xyciunzllttvkwdfyazf;Password=$t1n3Tr3v0r1023vor;Server=aws-0-eu-central-1.pooler.supabase.com;Port=5432;Database=postgres");
         }
     }
 }

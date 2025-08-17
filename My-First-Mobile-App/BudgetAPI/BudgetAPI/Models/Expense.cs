@@ -12,8 +12,6 @@ namespace BudgetAPI.Models
         [Precision(10,2)]
         public double MoneyOut { get; set; }
         [Required]
-        public string Store {  get; set; } = string.Empty;
-        [Required]
         [StringLength(50)]
         public string ExpenseCategory { get; set; } = string.Empty ;
     }

@@ -20,6 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 IConfiguration config = builder.Configuration.GetRequiredSection("Jwt");
+Secrecy.Connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     options.TokenValidationParameters = new TokenValidationParameters
@@ -48,7 +49,7 @@ builder.Services.AddAuthorizationBuilder()
     {
         policy.RequireClaim("Id");
     });
-builder.Services.AddNpgsql<BudgetDataContext>(builder.Configuration.GetConnectionString(Secrecy.getConnection()));
+builder.Services.AddNpgsql<BudgetDataContext> ("User Id=postgres.xyciunzllttvkwdfyazf;Password=$t1n3Tr3v0r1023vor;Server=aws-0-eu-central-1.pooler.supabase.com;Port=5432;Database=postgres");
 
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
 {

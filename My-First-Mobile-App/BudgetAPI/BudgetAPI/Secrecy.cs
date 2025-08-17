@@ -10,7 +10,7 @@ namespace BudgetAPI
 {
     public class Secrecy
     {
-        private static string _connection = "User Id=postgres;Password=t$3rDmy23;Server=localhost;Port=5432;Database=BudgetDB;";
+        public static string Connection { get; set; }
         //hashes password using Argon2 algorithm
         public static string hashString(string word)
         { 
@@ -26,9 +26,5 @@ namespace BudgetAPI
            return Argon2.Verify(passwordToVerify, Encoding.UTF8.GetBytes(password));
         }
 
-        public static string getConnection()
-        {
-            return _connection;
-        }
     }
 }
